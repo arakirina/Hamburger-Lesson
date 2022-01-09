@@ -68,12 +68,12 @@ h1 {
   background-color: #fff;
 }
 
-.menu-trigger .active span:nth-child(2) {
+.menu-trigger.active span:nth-child(2) {
   opacity: 0;
 }
 
-.menu-trigger .active span:nth-child(3) {
-  -webkit-transform: translateY(-20px) rotate(45px);
+.menu-trigger.active span:nth-child(3) {
+  -webkit-transform: translateY(-20px) rotate(45deg);
   transform: translateY(-20px) rotate(45deg);
   background-color: #fff;
 }
